@@ -8,3 +8,7 @@ Next activate the port with this command:
 python server.py
 
 Open in browser
+
+6/5/2026
+I have to tweak the code a bit, please be patient!
+Thank you!
