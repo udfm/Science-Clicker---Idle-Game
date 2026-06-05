@@ -4,7 +4,8 @@
   "portsAttributes": {
     "5000": {
       "label": "Application Port",
-      "onAutoForward": "openBrowser"
+      "onAutoForward": "openBrowser",
+      "visibility": "public"
     }
   }
 }
