@@ -1,0 +1,10 @@
+{
+  "name": "My Project Environment",
+  "forwardPorts": [5000],
+  "portsAttributes": {
+    "5000": {
+      "label": "Application Port",
+      "onAutoForward": "openBrowser"
+    }
+  }
+}
