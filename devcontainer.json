@@ -1,5 +1,5 @@
 {
-  "name": "My Project Environment",
+  "name": "Project Environment",
   "forwardPorts": [5000],
   "portsAttributes": {
     "5000": {
