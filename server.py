@@ -97,9 +97,33 @@ def home():
                 z-index: 100;
             }
             #tab-button {
-                width: 30px; height: 300px; background-color: #0091ff; color: white;
-                font-size: 11px; text-align: center; writing-mode: vertical-lr; cursor: pointer;
-                display: flex; align-items: center; justify-content: center; line-height: 1.2;
+                #tab-button {
+                width: 30px; 
+                height: 300px; 
+                background-color: #0091ff; 
+                color: white;
+                font-size: 11px; 
+                font-weight: bold;
+                cursor: pointer;
+    
+           /* Center the stacked column */
+                display: flex; 
+                flex-direction: column;
+                align-items: center; 
+                justify-content: center; 
+    
+           /* Force the line layout to go vertical */
+                writing-mode: vertical-lr;
+    
+           /* Prevents the browser from tilting the letters sideways */
+                text-orientation: upright;
+    
+           /* Forces a clean line-break behavior per letter if needed */
+                word-break: break-all;
+    
+           /* Gives breathing room between the vertical letters */
+                letter-spacing: 4px; 
+            }
             }
             #stats-body {
                 width: 420px; height: 300px; background-color: #222222; border: 1px solid #555555;
